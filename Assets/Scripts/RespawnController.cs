@@ -4,24 +4,26 @@ using UnityEngine;
 
 public class RespawnController : MonoBehaviour
 {
-    public CharacterController PlayerCollisionObject;
+    public CharacterController playerController;
     public Transform Spawn;
-    public Transform PlayerPos;
+    //public Transform PlayerPos;
     Vector3 SpawnPos;
 
     public void Awake()
     {
         //Player = FindObjectOfType<PlayerCharacterLogic>().gameObject;
-        PlayerCollisionObject.GetComponent<CharacterController>();
+        playerController.GetComponent<CharacterController>();
         //SpawnPos = new Vector3(Spawn.transform(x),);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other == PlayerCollisionObject)
+        if (other == playerController)
         {
             print("DEATH!");
-            PlayerPos.position = Spawn.position;
+            playerController.enabled = false;
+            playerController.transform.position = Spawn.position;
+            playerController.enabled = true;
         }
     }
 }
