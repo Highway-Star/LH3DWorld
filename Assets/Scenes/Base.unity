@@ -2554,7 +2554,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh30084
+  m_Name: pb_Mesh25558
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -50316,9 +50316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d2257470ca4c1b479d50364bdae4bbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerCollisionObject: {fileID: 1807270703}
+  playerController: {fileID: 1807270703}
   Spawn: {fileID: 205519561}
-  PlayerPos: {fileID: 1807270709}
 --- !u!1 &1368403076
 GameObject:
   m_ObjectHideFlags: 0
@@ -63514,11 +63513,6 @@ GameObject:
 --- !u!143 &1807270703 stripped
 CharacterController:
   m_CorrespondingSourceObject: {fileID: 4416926081852918491, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
-  m_PrefabInstance: {fileID: 474451092}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1807270709 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
   m_PrefabInstance: {fileID: 474451092}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1819718510
