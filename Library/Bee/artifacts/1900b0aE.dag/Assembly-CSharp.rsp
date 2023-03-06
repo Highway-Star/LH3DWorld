@@ -363,6 +363,7 @@
 "Assets/Scripts/DetectPlayerCollision.cs"
 "Assets/Scripts/LightManager.cs"
 "Assets/Scripts/RespawnController.cs"
+"Assets/Scripts/Reveal.cs"
 "Assets/Scripts/Rotation.cs"
 "Assets/Scripts/SingletonExample.cs"
 "Assets/Scripts/TriggerAction.cs"
