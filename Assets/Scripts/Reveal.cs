@@ -6,6 +6,9 @@ public class Reveal : MonoBehaviour
 {
     public GameObject[] revealObjects;
     public GameObject[] concealObjects;
+    [SerializeField]
+    RespawnController respawnController;
+    public Transform checkPoint;
 
     bool isRevealed = false;
 
@@ -13,6 +16,7 @@ public class Reveal : MonoBehaviour
     {
         if(isRevealed == false)
         {
+            respawnController.Spawn = checkPoint;
             foreach(GameObject go in revealObjects)
             {
                 go.SetActive(true);
@@ -20,7 +24,7 @@ public class Reveal : MonoBehaviour
             foreach (GameObject co in concealObjects)
             {
                 co.SetActive(false);
-            }
+            } 
             //revealObject.SetActive(true);
             isRevealed = true;
         }

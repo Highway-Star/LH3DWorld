@@ -366,6 +366,7 @@
 "Assets/Scripts/Reveal.cs"
 "Assets/Scripts/Rotation.cs"
 "Assets/Scripts/SingletonExample.cs"
+"Assets/Scripts/SinkingScript.cs"
 "Assets/Scripts/TriggerAction.cs"
 "Assets/Scripts/TriggerManager.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"

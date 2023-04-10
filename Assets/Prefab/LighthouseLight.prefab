@@ -48,7 +48,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.04504787, g: 0.8396226, b: 0, a: 1}
   m_Intensity: 2
-  m_Range: 100
+  m_Range: 200
   m_SpotAngle: 90
   m_InnerSpotAngle: 1
   m_CookieSize: 10
@@ -89,7 +89,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 10
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -137,4 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b331b5c2ee515418467decff8e8b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  revealObject: {fileID: 0}
+  revealObjects: []
+  concealObjects: []
+  respawnController: {fileID: 0}
+  checkPoint: {fileID: 0}
