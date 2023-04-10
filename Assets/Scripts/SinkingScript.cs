@@ -5,7 +5,7 @@ using UnityEngine;
 public class SinkingScript : MonoBehaviour
 {
     public CharacterController PlayerCollisionObject;
-    public float sinkSpeed = 0.5f;
+    public float sinkSpeed = -0.5f;
     float startY;
     bool sinking = false;
     // Start is called before the first frame update
@@ -20,17 +20,17 @@ public class SinkingScript : MonoBehaviour
         if (other == PlayerCollisionObject)
         {
             sinking = true;
-            if (sinking)
-            {
-                transform.position.y -= 0.5;
-            }
         }
         else
         {
-            if (sinking)
-            {
-
-            }
+            sinking = false;
+        }
+    }
+    public void Update()
+    {
+        if (sinking)
+        {
+            //this.transform.Translate(0, sinkSpeed, 0);
         }
     }
 }
