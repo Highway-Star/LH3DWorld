@@ -76,11 +76,19 @@
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
     <Compile Include="Assets\Scripts\RespawnController.cs" />
     <Compile Include="Assets\Scripts\SinkingScript.cs" />
+    <Compile Include="Assets\Scripts\Targetswitch.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Stylized Ocean Materials\Shader\Water_Ocean_01.shader" />
+    <None Include="Assets\Stylized Ocean Materials\Shader\Water_Ocean_06.shader" />
+    <None Include="Assets\Stylized Ocean Materials\Shader\Water_Ocean_02.shader" />
+    <None Include="Assets\Stylized Ocean Materials\Shader\Water_Ocean_04.shader" />
+    <None Include="Assets\Stylized Ocean Materials\Shader\Water_Ocean_05.shader" />
+    <None Include="Assets\Stylized Ocean Materials\Shader\Water_Ocean_03.shader" />
     <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
     <None Include="Assets\StarterAssets\license.txt" />
     <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
+    <None Include="Assets\Stylized Ocean Materials\Shader\Water_Ocean_01_Smooth.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

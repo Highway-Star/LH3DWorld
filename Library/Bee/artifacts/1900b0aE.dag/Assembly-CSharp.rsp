@@ -370,6 +370,7 @@
 "Assets/Scripts/SingletonExample.cs"
 "Assets/Scripts/SinkingScript.cs"
 "Assets/Scripts/Target.cs"
+"Assets/Scripts/Targetswitch.cs"
 "Assets/Scripts/TriggerAction.cs"
 "Assets/Scripts/TriggerManager.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
