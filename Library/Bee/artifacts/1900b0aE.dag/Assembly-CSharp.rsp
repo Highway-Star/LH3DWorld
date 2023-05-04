@@ -362,6 +362,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/DetectPlayerCollision.cs"
+"Assets/Scripts/LevelLoading.cs"
 "Assets/Scripts/LightManager.cs"
 "Assets/Scripts/MoveToClickPoint.cs"
 "Assets/Scripts/RespawnController.cs"
