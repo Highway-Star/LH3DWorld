@@ -74,10 +74,10 @@
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
+    <Compile Include="Assets\Scripts\LevelLoading.cs" />
     <Compile Include="Assets\Scripts\MoveToClickPoint.cs" />
     <Compile Include="Assets\Scripts\RespawnController.cs" />
     <Compile Include="Assets\Scripts\SinkingScript.cs" />
-    <Compile Include="Assets\Scripts\LevelLoading.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
