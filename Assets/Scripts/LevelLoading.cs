@@ -10,10 +10,12 @@ public class LevelLoading : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Cursor.visible = true;
         LoadLevel();
     }
     public void LoadLevel()
     {
+        Cursor.visible = false;
         SceneManager.LoadScene(SceneToLoad);
     }
 }

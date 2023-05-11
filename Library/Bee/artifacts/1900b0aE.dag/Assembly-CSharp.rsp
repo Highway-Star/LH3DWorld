@@ -370,6 +370,7 @@
 "Assets/Scripts/Rotation.cs"
 "Assets/Scripts/SingletonExample.cs"
 "Assets/Scripts/SinkingScript.cs"
+"Assets/Scripts/Startup.cs"
 "Assets/Scripts/Target.cs"
 "Assets/Scripts/Targetswitch.cs"
 "Assets/Scripts/TriggerAction.cs"

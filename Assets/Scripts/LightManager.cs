@@ -21,6 +21,7 @@ public class LightManager : MonoBehaviour
         else
         {
             instance = this;
+            Cursor.visible = false;
         }
 
         DontDestroyOnLoad(this.gameObject);
